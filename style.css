@@ -7,6 +7,8 @@ header {
     padding: 0;
     box-sizing: border-box;
     height: 10vh;
+    display: flex;
+    color: white;
 }
 footer {
     background-color: rgb(30, 45, 70);

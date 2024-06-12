@@ -1,4 +1,5 @@
 let tovar = document.querySelector('.cards')
+let desc = document.querySelector(".description")
 let products = [
     {
         name: 'oleg',
@@ -51,4 +52,7 @@ function submitOrder() {
     alert(`Order submitted:\nName: ${name}\nEmail: ${email}\nProduct: ${product}`);
     document.getElementById('order-form').style.display = 'none';
     tovar.style.display = 'flex';
+}
+function displayProductInfo(){
+    
 }

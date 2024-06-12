@@ -12,6 +12,8 @@ header {
 }
 footer {
     background-color: rgb(30, 45, 70);
+    display: flex;
+    
 }
 .card {
     border: 1px solid #ccc;
@@ -54,4 +56,10 @@ button {
 }
 .order-form input {
     margin: 5px 0;
+}
+footer a{color:  white;
+    text-decoration: none;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 5px;
 }

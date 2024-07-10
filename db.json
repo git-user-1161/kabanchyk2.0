@@ -1,0 +1,22 @@
+[
+    {
+        "name": "oleg",
+        "image": "oleg.jpg",
+        "description": "автомеханік"
+    },
+    {
+        "name": "taras",
+        "image": "taras.jpg",
+        "description": "сантехнік"
+    },
+    {
+        "name": "gavrylo",
+        "image": "gavrylo.jpg",
+        "description": "медвежатник"
+    },
+    {
+        "name": "gavrylo",
+        "image": "gavrylo.jpg",
+        "description": "медвежатник"
+    }
+]

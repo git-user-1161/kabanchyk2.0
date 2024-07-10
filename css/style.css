@@ -14,7 +14,8 @@ body {
 footer {
     background-color: rgb(30, 45, 70);
     display: flex;
-
+    color: white;
+ 
 }
 
 .card {
@@ -73,8 +74,23 @@ footer a {
     margin-right: 20px;
     margin-left: 5px;
 }
-
+footer img {
+    color: white;
+}
 .navbar {
     background-color: rgb(30, 45, 70);
     color:  white;
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{color: rgb(30, 45, 70);}
+main{
+    min-height: 90vh;
+}
+.info{
+    display: none;
+    
 }

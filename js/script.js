@@ -3,6 +3,7 @@ let desc = document.querySelector(".description")
 let pidlyva = document.querySelector('.pidlyva')
 let info = document.querySelector('.info')
 let home = document.querySelector('.home')
+let orderblock = document.querySelector('.order-form')
 
 
 async function getProducts() {
@@ -63,12 +64,15 @@ function displayProductInfo() {
 
 function checkSiteInfo() {
     tovar.style.display = 'none';
-    info.style.display = 'flex';
+    info.style.display = 'block';
+    orderblock.style.display = 'none';
 
 }
 function hideSiteInfo() {
-    tovar.style.display = 'flex';
+    tovar.style.display = 'block';
     info.style.display = 'none';
+    orderblock.style.display = 'none';
+
 
 }
 pidlyva.addEventListener('click', checkSiteInfo)

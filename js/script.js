@@ -2,6 +2,7 @@ let tovar = document.querySelector('.cards')
 let desc = document.querySelector(".description")
 let pidlyva = document.querySelector('.pidlyva')
 let info = document.querySelector('.info')
+let home = document.querySelector('.home')
 
 
 async function getProducts() {
@@ -65,6 +66,12 @@ function checkSiteInfo() {
     info.style.display = 'flex';
 
 }
+function hideSiteInfo() {
+    tovar.style.display = 'flex';
+    info.style.display = 'none';
+
+}
 pidlyva.addEventListener('click', checkSiteInfo)
+home.addEventListener('click', hideSiteInfoSiteInfo)
 
 

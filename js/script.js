@@ -72,6 +72,6 @@ function hideSiteInfo() {
 
 }
 pidlyva.addEventListener('click', checkSiteInfo)
-home.addEventListener('click', hideSiteInfoSiteInfo)
+home.addEventListener('click', hideSiteInfo)
 
 

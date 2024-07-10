@@ -1,22 +1,52 @@
 [
     {
-        "name": "oleg",
+        "name": "Олег",
         "image": "oleg.jpg",
         "description": "автомеханік"
     },
     {
-        "name": "taras",
+        "name": "Тарас",
         "image": "taras.jpg",
         "description": "сантехнік"
     },
     {
-        "name": "gavrylo",
+        "name": "Гаврило",
         "image": "gavrylo.jpg",
         "description": "медвежатник"
     },
     {
-        "name": "gavrylo",
-        "image": "gavrylo.jpg",
-        "description": "медвежатник"
+        "name": "Іван",
+        "image": "oleg.jpg",
+        "description": "електрик"
+    },
+    {
+        "name": "Сергій",
+        "image": "oleg.jpg",
+        "description": "будівельник"
+    },
+    {
+        "name": "Петро",
+        "image": "oleg.jpg",
+        "description": "плиточник"
+    },
+    {
+        "name": "Андрій",
+        "image": "oleg.jpg",
+        "description": "мебляр"
+    },
+    {
+        "name": "Дмитро",
+        "image": "oleg.jpg",
+        "description": "маляр"
+    },
+    {
+        "name": "Василь",
+        "image": "oleg.jpg",
+        "description": "штукатур"
+    },
+    {
+        "name": "Юрій",
+        "image": "oleg.jpg",
+        "description": "слюсар"
     }
 ]

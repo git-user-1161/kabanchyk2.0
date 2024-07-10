@@ -94,3 +94,13 @@ main{
     display: none;
     
 }
+.like-btn{
+    color: rgb(30, 45, 70);
+   
+
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

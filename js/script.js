@@ -46,7 +46,7 @@ getProducts().then(function (products) {
     //     });
     // }
 })
-Робота
+
 
 function submitOrder() {
     let name = document.getElementById('name').value;

@@ -1,6 +1,6 @@
 let tovar = document.querySelector('.cards')
 let desc = document.querySelector(".description")
-let pidlyva = document.querySelector('.nav-link')
+let pidlyva = document.querySelector('.pidlyva')
 let info = document.querySelector('.info')
 
 

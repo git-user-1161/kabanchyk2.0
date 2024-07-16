@@ -4,6 +4,8 @@ let pidlyva = document.querySelector('.pidlyva')
 let info = document.querySelector('.info')
 let home = document.querySelector('.home')
 let orderblock = document.querySelector('.order-form')
+let likedWorker = document.querySelector('.liked-workers')
+let cartBlock = document.querySelector('.cart')
 
 
 
@@ -77,17 +79,28 @@ function checkSiteInfo() {
     tovar.style.display = 'none';
     info.style.display = 'block';
     orderblock.style.display = 'none';
+    cartBlock.style.display ='none'
 
 }
 function hideSiteInfo() {
     tovar.style.display = 'block';
     info.style.display = 'none';
     orderblock.style.display = 'none';
+    cartBlock.style.display ='none'
+
+
+}
+function showLikedWorkers() {
+    tovar.style.display = 'none';
+    info.style.display = 'none';
+    orderblock.style.display = 'none';
+    cartBlock.style.display ='block'
 
 
 }
 pidlyva.addEventListener('click', checkSiteInfo)
 home.addEventListener('click', hideSiteInfo)
+likedWorker.addEventListener('click', showLikedWorkers)
 
 anime({
     targets:'like-btn'

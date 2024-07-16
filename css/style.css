@@ -107,3 +107,6 @@ main{
 .cart{
     display: none;
 }
+h2 .cart {
+    text-align: center;
+}
